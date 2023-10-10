@@ -16,7 +16,7 @@ export default function LoginPage() {
   });
   const [registerForm, setRegisterForm] = useState({
     name: "",
-    phoneNumber: "",
+    phone: "",
     email: "",
     username: "",
     password: "",
@@ -166,7 +166,7 @@ export default function LoginPage() {
                 <input
                   type="text"
                   id="phone"
-                  name="phoneNumber"
+                  name="phone"
                   placeholder="+62"
                   onChange={handleRegister}
                 />
