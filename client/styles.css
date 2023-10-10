@@ -1,0 +1,126 @@
+/* body {
+    margin: 0px;
+    padding: 0px;
+} */
+
+/* .title { grid-area: main; }
+.image-home { grid-area: footer;}
+.register-login {grid-area: right;}
+
+.home-container {
+    display: grid;
+    grid-template-areas: 
+    'main main main main right right'
+    'footer footer footer footer right right';
+    gap: 10px;
+    padding: 10px;
+    height: 100vh
+}
+
+.home-container > div {
+    text-align: center;
+}
+
+.title {
+    font-size: 100px;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+  .container {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+  }
+  .left {
+    display: flex;
+    flex: 2;
+    background-color: lightgrey;
+    height: 100%;
+    flex-direction: column;
+    padding: 50px;
+  }
+  .right {
+    flex: 1;
+    padding: 30px;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: 50px;
+  }
+
+  .title{
+    flex: 1;
+    font-size: 40px;
+    width: 300px
+  }
+  
+  .image {
+    flex: 2;
+    display: block;
+    width: 400px;
+    height: 200px;
+  }
+  
+  .login label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  .login input[type="text"],
+  .login input[type="password"],
+  .login input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .login input[type="submit"] {
+    width: 95%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 18px;
+  }
+  .login input[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+
+  .login-footer {
+    text-align: center;
+  }
+
+  .login-footer a {
+    text-decoration: none;
+  }
+
+  .sidebar {
+    flex: 1;
+    border: 1px solid lightgrey
+  }
+
+  .sidebar-item {
+    display: flex;
+    padding: 100px 50px;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .category {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+
+  .main-content{
+    flex: 3;
+  }
+
+  

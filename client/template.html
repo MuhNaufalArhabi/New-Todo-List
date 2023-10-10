@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Todo</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="title">
+                <h1>TO DO LIST</h1>
+            </div>
+            <div class="image">
+                <img src="https://via.placeholder.com/400x200" alt="Placeholder image" />
+            </div>
+        </div>
+        <div class="right">
+            <h3>Welcome to To Do List</h3>
+            <p>Please sign-in to your account, and start manage further</p>
+            <div class="login" id="login">
+                <form>
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Your registed username" />
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="*****" />
+                    <input type="submit" value="Sign In" />
+                </form>
+            </div>
+            <div class="login-footer">
+                <p>Don't have any account yet? <a href="#">Sign Up</a></p>
+            </div>
+            <div class="login" id="register">
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" />
+                    <label for="phone">Phone Number</label>
+                    <input type="text" id="phone" name="phone" placeholder="+62" />
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="example@mail.com" />
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Your username" />
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="*****" />
+                    <input type="submit" value="Sign Up" />
+                </form>
+                <div class="login-footer">
+                    <p>Already have an account? <a href="#">Login</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <div class="sidebar-item">
+                <div class="category">
+                    all category
+                </div>
+                <div class="category">
+                    all category
+                </div>
+                <div class="category">
+                    all category
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <h1>All Tasks</h1>
+            <div class="form-task">
+                <form>
+                    <input type="text" id="task" name="task" placeholder="Add new task" />
+                    <select>
+                        <option value="">Category</option>
+                        <option value="">Sport</option>
+                        <option value="">Game</option>
+                        <option value="">Home</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
