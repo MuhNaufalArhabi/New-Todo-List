@@ -37,18 +37,13 @@ export default function Sidebar({ categories }) {
         ) : (
           <></>
         )}
-        <div className="category" id="btn-category">
-          <span onClick={handleAddCategory}>
-            + New Category
-          </span>
+        <div className="add-new-category" id="btn-category">
+          <span onClick={handleAddCategory}>+ New Category</span>
         </div>
         <div className="category hidden" id="add-category">
-          <input
-            id="category-input"
-            type="text"
-            placeholder="New Category"
-            onKeyUp={handleInputCategory}
-          />
+          <div style={{ width: "144.89px" }}>
+            <input id="category-input" type="text" placeholder="New Category" onKeyUp={handleInputCategory} />
+          </div>
         </div>
       </div>
     </div>

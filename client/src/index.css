@@ -146,6 +146,16 @@ body {
   transition: 0.3s;
 }
 
+.add-new-category {
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
 .category:hover{
   border-radius: 20px;
   font-weight: 600
@@ -209,7 +219,7 @@ body {
   color: #ababab;
 }
 
-.category > input[type="text"] {
+.category input[type="text"] {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
